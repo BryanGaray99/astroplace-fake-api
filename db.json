@@ -1,20 +1,386 @@
 {
-    "products": [
-      {
+  "products": [
+    {
+      "id": 1,
+      "image": "telescope1.jpg",
+      "title": "Celestron NexStar 8SE",
+      "category": {
         "id": 1,
-        "image": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-        "title": "Harry Potter and the Philosopher's Stone",
-        "author": "J. K. Rowling",
-        "category": {
-            "id": 1,
-            "name": "Books",
-            "image": "https://placeimg.com/640/480/any?r=0.591926261873231"
-        },
-        "edition": "2021",
-        "description": "The best fiction book you will ever read.",
-        "price": 1299,
-        "borrowed": false
-      }
-    ]
-  }
-  
+        "name": "Altazimuth",
+        "image": "altazimuth.jpg"
+      },
+      "description": "The Celestron NexStar 8SE is a powerful Schmidt-Cassegrain telescope with an 8-inch aperture and computerized tracking.",
+      "price": 1299
+    },
+    {
+      "id": 2,
+      "image": "telescope2.jpg",
+      "title": "Orion SkyQuest XT10i",
+      "category": {
+        "id": 3,
+        "name": "Dobsonian",
+        "image": "dobsonian.jpg"
+      },
+      "description": "The Orion SkyQuest XT10i is a large-aperture Dobsonian telescope with IntelliScope computerized object locator.",
+      "price": 899
+    },
+    {
+      "id": 3,
+      "image": "accessory1.jpg",
+      "title": "Celestron Eyepiece and Filter Kit",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Celestron Eyepiece and Filter Kit includes various eyepieces and filters for enhancing your telescope viewing experience.",
+      "price": 199
+    },
+    {
+      "id": 4,
+      "image": "telescope3.jpg",
+      "title": "Meade LX200-ACF",
+      "category": {
+        "id": 2,
+        "name": "Equatorial",
+        "image": "equatorial.jpg"
+      },
+      "description": "The Meade LX200-ACF is a professional-grade equatorial telescope with Advanced Coma-Free optics and motorized tracking.",
+      "price": 2499
+    },
+    {
+      "id": 5,
+      "image": "accessory2.jpg",
+      "title": "Orion StarShoot Solar System Color Imaging Camera",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Orion StarShoot Solar System Color Imaging Camera allows you to capture stunning images of the planets and the Moon with your telescope.",
+      "price": 299
+    },
+    {
+      "id": 6,
+      "image": "telescope4.jpg",
+      "title": "Celestron CPC 1100 StarBright XLT GPS Schmidt-Cassegrain 2800mm Telescope",
+      "category": {
+        "id": 1,
+        "name": "Altazimuth",
+        "image": "altazimuth.jpg"
+      },
+      "description": "The Celestron CPC 1100 is a high-performance altazimuth telescope with advanced optics, GPS alignment, and a computerized hand controller.",
+      "price": 2999
+    },
+    {
+      "id": 7,
+      "image": "accessory3.jpg",
+      "title": "Celestron PowerSeeker Accessory Kit",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Celestron PowerSeeker Accessory Kit includes a variety of eyepieces, filters, and a Barlow lens to enhance your telescope's capabilities.",
+      "price": 99
+    },
+    {
+      "id": 8,
+      "image": "telescope5.jpg",
+      "title": "Sky-Watcher ProED 100mm Doublet APO Refractor Telescope",
+      "category": {
+        "id": 2,
+        "name": "Equatorial",
+        "image": "equatorial.jpg"
+      },
+      "description": "The Sky-Watcher ProED 100mm is a premium-quality refractor telescope with a doublet apochromatic lens and a sturdy equatorial mount.",
+      "price": 1299
+    },
+    {
+      "id": 9,
+      "image": "accessory4.jpg",
+      "title": "Orion Deluxe Off-Axis Guider",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Orion Deluxe Off-Axis Guider helps you capture precise astrophotographs by guiding your telescope accurately during long-exposure imaging.",
+      "price": 199
+    },
+    {
+      "id": 10,
+      "image": "telescope6.jpg",
+      "title": "Celestron NexStar 6SE",
+      "category": {
+        "id": 1,
+        "name": "Altazimuth",
+        "image": "altazimuth.jpg"
+      },
+      "description": "The Celestron NexStar 6SE is a compact and portable Schmidt-Cassegrain telescope with computerized GoTo tracking and a 6-inch aperture.",
+      "price": 799
+    },
+    {
+      "id": 11,
+      "image": "accessory5.jpg",
+      "title": "Celestron Sky Maps",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "Celestron Sky Maps is a set of star charts and a planisphere that helps you navigate the night sky and locate celestial objects.",
+      "price": 19
+    },
+    {
+      "id": 12,
+      "image": "telescope7.jpg",
+      "title": "Orion SkyQuest XT8 Plus",
+      "category": {
+        "id": 3,
+        "name": "Dobsonian",
+        "image": "dobsonian.jpg"
+      },
+      "description": "The Orion SkyQuest XT8 Plus is a versatile Dobsonian telescope with an 8-inch aperture, an upgraded Crayford focuser, and a convenient accessories tray.",
+      "price": 499
+    },
+    {
+      "id": 13,
+      "image": "accessory6.jpg",
+      "title": "Orion 2x Shorty Barlow Lens",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Orion 2x Shorty Barlow Lens doubles the magnification of your telescope eyepieces, allowing you to observe distant celestial objects with more detail.",
+      "price": 69
+    },
+    {
+      "id": 14,
+      "image": "telescope8.jpg",
+      "title": "Sky-Watcher Collapsible Dobsonian 8-Inch",
+      "category": {
+        "id": 3,
+        "name": "Dobsonian",
+        "image": "dobsonian.jpg"
+      },
+      "description": "The Sky-Watcher Collapsible Dobsonian 8-Inch is a portable and easy-to-set-up telescope with an 8-inch aperture and collapsible tube for convenient storage.",
+      "price": 599
+    },
+    {
+      "id": 15,
+      "image": "accessory7.jpg",
+      "title": "Celestron SkySync GPS Accessory",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Celestron SkySync GPS Accessory provides automatic time and location information to your telescope for precise celestial tracking and alignment.",
+      "price": 129
+    },
+    {
+      "id": 16,
+      "image": "telescope9.jpg",
+      "title": "Orion StarBlast 6 Astro Reflector Telescope",
+      "category": {
+        "id": 1,
+        "name": "Altazimuth",
+        "image": "altazimuth.jpg"
+      },
+      "description": "The Orion StarBlast 6 is a compact and versatile reflector telescope with a 6-inch aperture and a stable altazimuth mount.",
+      "price": 279
+    },
+    {
+      "id": 17,
+      "image": "accessory8.jpg",
+      "title": "Celestron T-Ring for Nikon DSLR Cameras",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Celestron T-Ring allows you to connect your Nikon DSLR camera to a telescope for astrophotography and capturing stunning celestial images.",
+      "price": 39
+    },
+    {
+      "id": 18,
+      "image": "telescope10.jpg",
+      "title": "Meade LightBridge Mini 114mm Telescope",
+      "category": {
+        "id": 3,
+        "name": "Dobsonian",
+        "image": "dobsonian.jpg"
+      },
+      "description": "The Meade LightBridge Mini 114mm is a portable Dobsonian telescope with a tabletop mount and a 114mm aperture for wide-field views of the night sky.",
+      "price": 169
+    },
+    {
+      "id": 19,
+      "image": "accessory9.jpg",
+      "title": "Orion StarShoot AutoGuider Pro & 60mm Guide Scope Package",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Orion StarShoot AutoGuider Pro & 60mm Guide Scope Package is a complete autoguiding solution for precise astrophotography guiding with your telescope.",
+      "price": 399
+    },
+    {
+      "id": 20,
+      "image": "telescope11.jpg",
+      "title": "Celestron PowerSeeker 70EQ Telescope",
+      "category": {
+        "id": 2,
+        "name": "Equatorial",
+        "image": "equatorial.jpg"
+      },
+      "description": "The Celestron PowerSeeker 70EQ is an entry-level equatorial telescope with a 70mm aperture and a stable equatorial mount for celestial observations.",
+      "price": 99
+    },
+    {
+      "id": 21,
+      "image": "accessory10.jpg",
+      "title": "Orion RedBeam II LED Flashlight",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Orion RedBeam II LED Flashlight provides dim red illumination for preserving night vision during stargazing and astronomy observations.",
+      "price": 24
+    },
+    {
+      "id": 22,
+      "image": "telescope12.jpg",
+      "title": "Sky-Watcher ProED 80mm Doublet APO Refractor Telescope",
+      "category": {
+        "id": 2,
+        "name": "Equatorial",
+        "image": "equatorial.jpg"
+      },
+      "description": "The Sky-Watcher ProED 80mm is a versatile refractor telescope with a doublet apochromatic lens and a sturdy equatorial mount for astrophotography.",
+      "price": 999
+    },
+    {
+      "id": 23,
+      "image": "accessory11.jpg",
+      "title": "Celestron PowerTank Lithium Pro",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Celestron PowerTank Lithium Pro is a portable power supply designed for telescopes, providing long-lasting power for extended stargazing sessions.",
+      "price": 199
+    },
+    {
+      "id": 24,
+      "image": "telescope13.jpg",
+      "title": "Orion StarMax 90mm TableTop Maksutov-Cassegrain Telescope",
+      "category": {
+        "id": 1,
+        "name": "Altazimuth",
+        "image": "altazimuth.jpg"
+      },
+      "description": "The Orion StarMax 90mm is a compact and portable Maksutov-Cassegrain telescope with a tabletop mount, ideal for observing the Moon and planets.",
+      "price": 229
+    },
+    {
+      "id": 25,
+      "image": "accessory12.jpg",
+      "title": "Celestron SkyPortal WiFi Module",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Celestron SkyPortal WiFi Module allows you to control your telescope wirelessly using your smartphone or tablet and access a vast database of celestial objects.",
+      "price": 99
+    },
+    {
+      "id": 26,
+      "image": "telescope14.jpg",
+      "title": "Meade LX85 6-inch Reflector Telescope",
+      "category": {
+        "id": 2,
+        "name": "Equatorial",
+        "image": "equatorial.jpg"
+      },
+      "description": "The Meade LX85 6-inch Reflector Telescope is a versatile equatorial telescope with high-quality optics and a motorized GoTo mount for automated celestial tracking.",
+      "price": 799
+    },
+    {
+      "id": 27,
+      "image": "accessory13.jpg",
+      "title": "Orion StarShoot Deep Space Color Imaging Camera",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Orion StarShoot Deep Space Color Imaging Camera is a powerful astrophotography camera for capturing detailed images of galaxies, nebulae, and more.",
+      "price": 399
+    },
+    {
+      "id": 28,
+      "image": "telescope15.jpg",
+      "title": "Celestron AstroMaster 130EQ Telescope",
+      "category": {
+        "id": 3,
+        "name": "Dobsonian",
+        "image": "dobsonian.jpg"
+      },
+      "description": "The Celestron AstroMaster 130EQ is a reflector telescope with a 130mm aperture and a stable equatorial mount, perfect for both astronomical and terrestrial observations.",
+      "price": 279
+    },
+    {
+      "id": 29,
+      "image": "accessory14.jpg",
+      "title": "Celestron Moon Filter",
+      "category": {
+        "id": 4,
+        "name": "Accessories",
+        "image": "accessories.jpg"
+      },
+      "description": "The Celestron Moon Filter reduces the brightness and glare of the Moon, allowing you to observe lunar details with greater clarity and comfort.",
+      "price": 19
+    },
+    {
+      "id": 30,
+      "image": "telescope16.jpg",
+      "title": "Orion SkyQuest XT6 Classic Dobsonian Telescope",
+      "category": {
+        "id": 3,
+        "name": "Dobsonian",
+        "image": "dobsonian.jpg"
+      },
+      "description": "The Orion SkyQuest XT6 Classic is a popular Dobsonian telescope with a 6-inch aperture, smooth altazimuth motion, and easy point-and-view operation.",
+      "price": 299
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Altazimuth",
+      "image": "altazimuth.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Equatorial",
+      "image": "equatorial.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dobsonian",
+      "image": "dobsonian.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Accessories",
+      "image": "accessories.jpg"
+    }
+  ]
+}
