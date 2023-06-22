@@ -1,14 +1,18 @@
 {
-    "books": [
+    "products": [
       {
         "id": 1,
-        "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-        "book_name": "Harry Potter and the Philosopher's Stone",
+        "image": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+        "title": "Harry Potter and the Philosopher's Stone",
         "author": "J. K. Rowling",
-        "genre": "fiction",
+        "category": {
+            "id": 1,
+            "name": "Books",
+            "image": "https://placeimg.com/640/480/any?r=0.591926261873231"
+        },
         "edition": "2021",
-        "publisher": "Bloomsbury",
-        "cost": 1299,
+        "description": "The best fiction book you will ever read.",
+        "price": 1299,
         "borrowed": false
       }
     ]
