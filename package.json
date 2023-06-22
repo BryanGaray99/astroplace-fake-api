@@ -1,0 +1,17 @@
+{
+  "name": "astroplace-fake-api",
+  "version": "1.0.0",
+  "description": "astroplace-fake-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Bryan Garay",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.3"
+  }
+}
