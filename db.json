@@ -2,14 +2,14 @@
   "products": [
     {
       "id": 1,
-      "image": "https://image.invaluable.com/housePhotos/maynardsfineart/61/736761/H0759-L318558042.JPG",
-      "title": "Celestron NexStar 8SE",
+      "image": "https://lh3.googleusercontent.com/B9469y1OAPt97hEGUZhMyDecLUysl7hItg4CT4H1db-G45BRnNo5pBEL8QoV_-hS6Ij8VXaM9hd5UrnoNmp3Bjmb098UTKkJUEMOB_3kjriVrUyLV_GMlkY_Mts19mKeutZaS_K6og=w2400",
+      "title": "Celestrom Inspire 100Az",
       "category": {
         "id": 1,
         "name": "Altazimuth",
         "image": "altazimuth.jpg"
       },
-      "description": "The Celestron NexStar 8SE is a powerful Schmidt-Cassegrain telescope with an 8-inch aperture and computerized tracking.",
+      "description": "The Celestron Inspire AZ100 is not only a great telescope, but it is part of my story. I was my first telescope!",
       "price": 1299
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "image": "https://www.astrocity.es/2153-thickbox/telescopio-meade-lx200-acf-12.jpg",
+      "image": "https://www.rothervalleyoptics.co.uk/user/products/newlx85014.jpg",
       "title": "Meade LX200-ACF",
       "category": {
         "id": 2,
@@ -62,7 +62,7 @@
     },
     {
       "id": 6,
-      "image": "https://images-cdn.ubuy.co.in/63d9d239f41c0b42b63f67fd-celestron-cpc-1100-starbright-xlt-gps.jpg",
+      "image": "https://cdn-glaeh.nitrocdn.com/NoGFvTYhhpDKkuVwrznFmAtYTvhnQkBR/assets/images/optimized/rev-c2a8a64/wp-content/uploads/2014/06/4352-Celestron-CPC-1100-GPS-XLT.jpg",
       "title": "Celestron CPC 1100 StarBright XLT GPS Schmidt-Cassegrain 2800mm Telescope",
       "category": {
         "id": 1,
@@ -182,14 +182,14 @@
     },
     {
       "id": 16,
-      "image": "https://manuals.plus/wp-content/uploads/2023/04/Orion-10016-StarBlast-6-Astro-Reflector-Telescope-fig-1.png",
-      "title": "Orion StarBlast 6 Astro Reflector Telescope",
+      "image": "https://image.invaluable.com/housePhotos/maynardsfineart/61/736761/H0759-L318558042.JPG",
+      "title": "Celestron NexStar 8SE",
       "category": {
         "id": 1,
         "name": "Altazimuth",
         "image": "altazimuth.jpg"
       },
-      "description": "The Orion StarBlast 6 is a compact and versatile reflector telescope with a 6-inch aperture and a stable altazimuth mount.",
+      "description": "The Celestron NexStar 8SE is a powerful Schmidt-Cassegrain telescope with an 8-inch aperture and computerized tracking.",
       "price": 279
     },
     {
@@ -230,7 +230,7 @@
     },
     {
       "id": 20,
-      "image": "https://equiposcotopaxi.com/wp-content/uploads/2021/05/Telescopio-C10.jpg",
+      "image": "https://www.picstop.co.uk/user/products/large/21062_astromaster_70eq[5].jpg",
       "title": "Celestron PowerSeeker 70EQ Telescope",
       "category": {
         "id": 2,
