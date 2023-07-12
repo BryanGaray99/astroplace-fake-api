@@ -17,6 +17,10 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3001; // you can use any port number here; i chose to use 3001
 
 server.use(middlewares);
+server.use((req, res, next) => {
+    res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
+    next();
+  });
 server.use(router);
 
 server.listen(port);
