@@ -263,5 +263,9 @@
       "image": "accessories.jpg"
     }
   ],
-  "visitors": []
+  "visitors": [
+    {
+      "name":"Neo"
+    }
+  ]
 }
