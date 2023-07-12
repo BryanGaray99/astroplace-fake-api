@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "image": "https://www.telescopioschile.cl/wp-content/uploads/2020/10/Telescopio-Orion-SkyQuest-XT10.jpg",
+      "image": "https://i.ibb.co/71dc0Ww/id2.jpg",
       "title": "Orion SkyQuest XT10i",
       "category": {
         "id": 3,
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "image": "https://assets.fishersci.com/TFS-Assets/CCG/product-images/F59149~p.eps-650.jpg",
+      "image": "https://i.ibb.co/2K91bZf/id3.webp",
       "title": "Celestron Eyepiece and Filter Kit",
       "category": {
         "id": 4,
@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "image": "https://www.rothervalleyoptics.co.uk/user/products/newlx85014.jpg",
+      "image": "https://i.ibb.co/PxDHBCN/id4.jpg",
       "title": "Meade LX200-ACF",
       "category": {
         "id": 2,
@@ -50,7 +50,7 @@
     },
     {
       "id": 5,
-      "image": "https://images.telescope.com/get/w/340/h/340/52097.jpg",
+      "image": "https://i.ibb.co/xjvQRVD/id5.jpg",
       "title": "Orion StarShoot Solar System Color Imaging Camera",
       "category": {
         "id": 4,
@@ -62,7 +62,7 @@
     },
     {
       "id": 6,
-      "image": "https://cdn-glaeh.nitrocdn.com/NoGFvTYhhpDKkuVwrznFmAtYTvhnQkBR/assets/images/optimized/rev-c2a8a64/wp-content/uploads/2014/06/4352-Celestron-CPC-1100-GPS-XLT.jpg",
+      "image": "https://i.ibb.co/LPrzC1q/id6.jpg",
       "title": "Celestron CPC 1100 StarBright XLT GPS Schmidt-Cassegrain 2800mm Telescope",
       "category": {
         "id": 1,
@@ -74,7 +74,7 @@
     },
     {
       "id": 7,
-      "image": "https://static.bhphoto.com/images/multiple_images/images500x500/1464796056_IMG_638076.jpg",
+      "image": "https://i.ibb.co/CnQVx02/id7.jpg",
       "title": "Celestron PowerSeeker Accessory Kit",
       "category": {
         "id": 4,
@@ -86,7 +86,7 @@
     },
     {
       "id": 8,
-      "image": "https://www.cloudynights.com/images/SWPRO100EDREVIEW_files/image002.gif",
+      "image": "https://i.ibb.co/sVP0C24/id8.gif",
       "title": "Sky-Watcher ProED 100mm Doublet APO Refractor Telescope",
       "category": {
         "id": 2,
@@ -98,7 +98,7 @@
     },
     {
       "id": 9,
-      "image": "https://www.omegon.eu/CMS/images_360/33139/2048/001.jpg",
+      "image": "https://i.ibb.co/FwgT0Xv/id9.jpg",
       "title": "Orion Deluxe Off-Axis Guider",
       "category": {
         "id": 4,
@@ -110,7 +110,7 @@
     },
     {
       "id": 10,
-      "image": "https://www.skiesunlimited.com/images/P/Nexstar-6SE-2.jpg",
+      "image": "https://i.ibb.co/jZKvdg9/id10.jpg",
       "title": "Celestron NexStar 6SE",
       "category": {
         "id": 1,
@@ -122,7 +122,7 @@
     },
     {
       "id": 11,
-      "image": "https://astromart.com/images/classifieds/97977/964382-1.jpg",
+      "image": "https://i.ibb.co/ncbKq0R/id11.jpg",
       "title": "Celestron Sky Maps",
       "category": {
         "id": 4,
@@ -134,7 +134,7 @@
     },
     {
       "id": 12,
-      "image": "https://i0.wp.com/maisonastronomie.ca/wp-content/uploads/2014/08/49.jpg?fit=500%2C500&ssl=1",
+      "image": "https://i.ibb.co/thTm203/id12.webp",
       "title": "Orion SkyQuest XT8 Plus",
       "category": {
         "id": 3,
@@ -146,7 +146,7 @@
     },
     {
       "id": 13,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/411zYtKl2JL._AC_SX569_.jpg",
+      "image": "https://i.ibb.co/mDpRLQ2/id13.jpg",
       "title": "Orion 2x Shorty Barlow Lens",
       "category": {
         "id": 4,
@@ -158,7 +158,7 @@
     },
     {
       "id": 14,
-      "image": "https://agenaastro.com/media/catalog/product/cache/8e03964313a1df06445707bf7088f1a0/t/-/t-sw-s11830-1.jpg",
+      "image": "https://i.ibb.co/7r7KD05/id14.jpg",
       "title": "Sky-Watcher Collapsible Dobsonian 8-Inch",
       "category": {
         "id": 3,
@@ -170,7 +170,7 @@
     },
     {
       "id": 15,
-      "image": "https://www.alphacygni.com/17229-large_default/modulo-gps-celestron-skysync-para-telescopios-computerizados.jpg",
+      "image": "https://i.ibb.co/b7KfCfh/id15.jpg",
       "title": "Celestron SkySync GPS Accessory",
       "category": {
         "id": 4,
@@ -182,7 +182,7 @@
     },
     {
       "id": 16,
-      "image": "https://image.invaluable.com/housePhotos/maynardsfineart/61/736761/H0759-L318558042.JPG",
+      "image": "https://i.ibb.co/cFTXLK7/id16.jpg",
       "title": "Celestron NexStar 8SE",
       "category": {
         "id": 1,
@@ -194,7 +194,7 @@
     },
     {
       "id": 17,
-      "image": "https://spacearcade.in/wp-content/uploads/2021/08/Nikon-T-Ring_1.jpg",
+      "image": "https://i.ibb.co/rc6ZzQy/id17.jpg",
       "title": "Celestron T-Ring for Nikon DSLR Cameras",
       "category": {
         "id": 4,
@@ -206,7 +206,7 @@
     },
     {
       "id": 18,
-      "image": "https://www.xn--astrofotografa-dmb.com/wp-content/uploads/2020/10/Meade-LightBridge-Mini-vista-lateral-scaled.jpg",
+      "image": "https://i.ibb.co/26M2C0d/id18.jpg",
       "title": "Meade LightBridge Mini 114mm Telescope",
       "category": {
         "id": 3,
@@ -218,7 +218,7 @@
     },
     {
       "id": 19,
-      "image": "https://cdn.shopify.com/s/files/1/1979/5379/collections/340x340_template-6_1200x1200.jpeg",
+      "image": "https://i.ibb.co/ckD9t3f/id19.webp",
       "title": "Orion StarShoot AutoGuider Pro & 60mm Guide Scope Package",
       "category": {
         "id": 4,
@@ -230,7 +230,7 @@
     },
     {
       "id": 20,
-      "image": "https://www.picstop.co.uk/user/products/large/21062_astromaster_70eq[5].jpg",
+      "image": "https://i.ibb.co/GPpR2jk/id20.jpg",
       "title": "Celestron PowerSeeker 70EQ Telescope",
       "category": {
         "id": 2,
