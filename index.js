@@ -1,4 +1,5 @@
 const jsonServer = require("json-server"); // importing json-server library
+const cors = require('cors');
 const server = jsonServer.create();
 server.post("/visitors", (req, res) => {
     const { name } = req.body;
@@ -18,10 +19,13 @@ const port = process.env.PORT || 3001; // you can use any port number here; i ch
 
 server.use(jsonServer.bodyParser);
 server.use(middlewares);
+server.use(cors());
 server.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
+    res.header("Access-Control-Allow-Origin", "http://localhost:5173");
+    res.header('Access-Control-Allow-Headers', '*');
     next();
   });
+
 server.use(router);
 
 server.listen(port);
