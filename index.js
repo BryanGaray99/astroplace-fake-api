@@ -1,31 +1,31 @@
-const jsonServer = require("json-server"); // importing json-server library
-const cors = require('cors');
+const jsonServer = require("json-server");
+const cors = require("cors");
+
 const server = jsonServer.create();
-server.post("/visitors", (req, res) => {
-    const { name } = req.body;
-  
-    if (name) {
-      const visitor = { name };
-      const db = router.db;
-      db.get("visitors").push(visitor).write();
-      res.status(201).json(visitor);
-    } else {
-      res.status(400).json({ error: "Name is required" });
-    }
-});
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3001; // you can use any port number here; i chose to use 3001
+const port = process.env.PORT || 3001;
 
 server.use(jsonServer.bodyParser);
-server.use(middlewares);
 server.use(cors());
-server.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "http://localhost:5173");
-    res.header('Access-Control-Allow-Headers', '*');
-    next();
-  });
+server.use(middlewares);
+
+// Custom endpoint for adding visitors
+server.post("/visitors", (req, res) => {
+  const { name } = req.body;
+
+  if (name) {
+    const db = router.db;
+    const visitor = { name };
+    db.get("visitors").push(visitor).write();
+    res.status(201).json(visitor);
+  } else {
+    res.status(400).json({ error: "Name is required" });
+  }
+});
 
 server.use(router);
 
-server.listen(port);
+server.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
